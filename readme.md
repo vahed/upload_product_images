@@ -1,6 +1,5 @@
 # Upload product images with Larvel 5.7
 
-The URL for the website hosting is "vahed.co.uk/public".
 
 To set up the application in your server you need to create MYSQL database called “testdb”. Run the command “php artisan migrate” as command line arguments to create database tables. To seed "photos" table with the provided data from Json API, the following commands need to be executed:
 
@@ -25,4 +24,5 @@ public function run()
  }
 
 ```
+
 
